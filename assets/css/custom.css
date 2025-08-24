@@ -1,0 +1,332 @@
+.file-links li {
+  padding: 20px;
+  width: fit-content;
+  list-style: none;
+  font-size: 24px;
+  text-align: center;
+  cursor: pointer;
+  outline: none;
+  color: #fff;
+  background-color: #3f51b5;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 9px #999;
+  margin-bottom: 25px;
+}
+
+.notices,
+.notice-details {
+  margin: 0px auto;
+  width: 90%;
+}
+
+.notices li,
+.notice-details li {
+  display: flex;
+  background: #fff;
+  padding: 25px;
+  border-radius: 3px;
+  margin: 0 0 30px;
+  align-items: center;
+  justify-content: space-between;
+  box-shadow: 1.5px 2.598px 5px 0px rgba(0, 0, 0, 0.1);
+  transition: 0.3s;
+}
+
+.notices .blue,
+.notice-details .blue {
+  width: 100px;
+  text-align: center;
+  font-size: 16px;
+  font-weight: 600;
+  color: white;
+  background-color: #3f51b5;
+  transition: 0.3s;
+}
+
+.notices .blue span,
+.notice-details .blue span {
+  font-size: 36px;
+  font-weight: 600;
+}
+
+.notices .blue p,
+.notice-details .blue p {
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.notices p,
+.notice-details p {
+  font-size: 24px;
+  font-weight: 400;
+  transition: 0.3s;
+}
+
+.notices button {
+  height: fit-content;
+  width: 140px;
+  font-size: 14px;
+  font-weight: 600;
+  background-color: #3f51b5;
+  padding: 5px 5px;
+  border: none;
+  cursor: pointer;
+  transition: 0.3s;
+}
+.notices button a {
+  color: white;
+}
+
+.notices li:hover,
+.notice-details li:hover {
+  box-shadow: 0px 12.99px 30px 0px rgba(0, 0, 0, 0.1);
+  transition: 0.3s;
+}
+
+.notices li:hover .blue,
+.notices button:hover {
+  background-color: #fcb900;
+  transition: 0.3s;
+}
+
+.notices .text-muted:hover,
+.notices p:hover a {
+  color: #0066ff !important;
+  transition: 0.3s;
+}
+
+.fa-cloud-download {
+  width: fit-content;
+  padding: 10px 20px;
+  color: white;
+  background-color: #00a651;
+  border-radius: 2px;
+  border: none;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.testimonial {
+  box-shadow: 1.5px 2.598px 5px 0px rgba(0, 0, 0, 0.1);
+  margin: 20px 0px;
+}
+.testimonial-image {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 20px 0px;
+}
+.testimonial-image img {
+  height: 100px;
+  width: 100px;
+  object-fit: cover;
+}
+
+.club-link {
+  padding: 2px;
+  margin: 0px !important;
+  text-align: center;
+  border: 2px solid rgba(0, 0, 0, 0.265);
+  border-bottom: none;
+  border-radius: 0px 30px 0px 0px;
+}
+
+.club-link:hover {
+  box-shadow: 0 0px 10px 0 rgba(0, 0, 0, 0.265);
+}
+
+.club-detail {
+  display: none;
+  box-shadow: 0 0px 10px 0 rgba(0, 0, 0, 0.265);
+}
+
+.club-link.active {
+  border: 0px;
+  background-color: rgba(249, 168, 37);
+  box-shadow: 0 2px 10px 0 rgba(0, 0, 0, 0.265);
+}
+.lbefbutton {
+  padding: 15px 25px;
+  font-size: 24px;
+  text-align: center;
+  cursor: pointer;
+  outline: none;
+  color: #fff;
+  background-color: #3f51b5;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 9px #999;
+  margin-bottom:25px; !important
+}
+
+.lbefbutton:hover {background-color: #2f41a5; 
+box-shadow:0 9px #000}
+
+.lbefbutton:active {
+  background-color: #4f61c5;
+  box-shadow: 0 9px #666;
+  transform: translateY(4px);
+}
+
+#enquirenow{
+    position: fixed;
+    left: 0;
+    top: 20%;
+    height: 150px;
+    width: 50px; /* Adjust width as needed */
+    background-color: navy;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 0 0 0 5px;
+    box-shadow: -2px 2px 5px rgba(0, 0, 0, 0.5);
+    z-index: 1000;
+    transition: transform 0.3s;
+    font-family: Rubik, "Montserrat", sans-serif;
+    font-size:12pt;
+    font-weight: bold;
+}
+
+.tab-content {
+    writing-mode: vertical-rl;
+    text-orientation: mixed;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+
+#enquirenow a {
+    color: #fff;
+    text-decoration: none;
+}
+
+#enquirenow a:hover {
+    text-decoration: none;
+}
+
+#enquirenow:hover {
+    /*transform: translateY(-50%) scale(1.1);*/ /* Slightly scale up on hover */
+}
+#applynow{
+    position: fixed;
+    left: 0;
+    top: 60%;
+    height: 150px;
+    width: 50px; /* Adjust width as needed */
+    background-color: navy;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 0 0 0 5px;
+    box-shadow: -2px 2px 5px rgba(0, 0, 0, 0.5);
+    z-index: 1000;
+    transition: transform 0.3s;
+    font-family: Rubik, "Montserrat", sans-serif;
+    font-size:12pt;
+    font-weight: bold;
+}
+
+
+
+#applynow a {
+    color: #fff;
+    text-decoration: none;
+}
+
+#applynow a:hover {
+    text-decoration: none;
+}
+
+#applynow:hover {
+    /*transform: translateY(-50%) scale(1.1);*/ /* Slightly scale up on hover */
+}
+
+#panel-container {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    position: fixed;
+    left: 0;
+    top:40%;
+    padding: 10px;
+}
+#panel-container .panel {
+    width: 50px;
+    height: 50px;
+    background-color: navy;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: width 0.3s ease;
+    overflow: hidden;
+    position: relative;
+}
+#panel-container .panel .icon {
+    display: block;
+    width: 24px;
+    height: 24px;
+}
+#panel-container .panel .text {
+    display: none;
+    font-size: 16px;
+    color: white;
+    text-align: center;
+}
+#panel-container .panel:hover {
+    width: 150px;
+    height: 50px;
+}
+#panel-container .panel:hover .icon {
+    display: inline;
+}
+#panel-container.panel:hover .text {
+    display: block;
+}
+
+
+/* Popup container - hidden by default */
+.popup {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+/* Popup content */
+.popup-content {
+    background-color: #fefefe;
+    margin: 15% auto; /* 15% from the top and centered */
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%; /* Could be more or less, depending on screen size */
+    box-shadow: 0 4px 8px rgba(0,0,128,0.2), 0 6px 20px rgba(0,0,128,0.19);
+}
+
+/* Close button */
+.close-btn {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close-btn:hover,
+.close-btn:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
